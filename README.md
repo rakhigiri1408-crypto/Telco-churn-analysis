@@ -13,7 +13,7 @@ and recommends actions for the retention team.
 
 | Insight | Finding |
 |---------|---------|
-| Overall Churn Rate | 26.5% — 1 in 4 customers leaving |
+| Overall Churn Rate | 26.5% , 1 in 4 customers leaving |
 | Highest Risk Contract | Month-to-month customers churn 3x more than long-term |
 | Payment Red Flag | Electronic check users churn 4x more than auto-pay users |
 | High Risk Segment | New customers (<12 months) paying >$65/month |
@@ -24,9 +24,9 @@ and recommends actions for the retention team.
 ## Business Recommendations
 
 1. **Target month-to-month customers** with upgrade offers to annual contracts
-2. **Incentivise auto-pay setup** — electronic check users are low engagement and high churn risk
+2. **Incentivise auto-pay setup** - electronic check users are low engagement and high churn risk
 3. **Prioritise retention budget** on customers with tenure under 12 months and monthly charges above $65
-4. **Senior citizen segment** needs separate retention strategy — second highest churn driver
+4. **Senior citizen segment** needs separate retention strategy - second highest churn driver
 
 ---
 
@@ -42,4 +42,4 @@ IBM Telco Customer Churn — [Kaggle](https://www.kaggle.com/datasets/blastchar/
 ## Model Performance
 - Algorithm: Logistic Regression
 - Accuracy: 79%
-- Key limitation: 192 false positives — retention budget may be wasted on customers who were not going to churn
+- Key limitation: 192 false positives - retention budget may be wasted on customers who were not going to churn
