@@ -2,6 +2,8 @@
 Exploratory data analysis and churn prediction model for a telecom company using SQL, Python and Logistic Regression. Identifies high-risk customer segments causing $52K/month revenue loss.
 # Telecom Customer Churn Analysis
 
+# Telecom Customer Churn Analysis
+
 ## Business Problem
 A telecom company is losing 26.5% of its customers every quarter. 
 This project identifies which customers are most likely to churn 
@@ -13,7 +15,7 @@ and recommends actions for the retention team.
 
 | Insight | Finding |
 |---------|---------|
-| Overall Churn Rate | 26.5% , 1 in 4 customers leaving |
+| Overall Churn Rate | 26.5% — 1 in 4 customers leaving |
 | Highest Risk Contract | Month-to-month customers churn 3x more than long-term |
 | Payment Red Flag | Electronic check users churn 4x more than auto-pay users |
 | High Risk Segment | New customers (<12 months) paying >$65/month |
@@ -21,12 +23,37 @@ and recommends actions for the retention team.
 
 ---
 
+## Visualisations
+
+### 1. Overall Churn Rate
+![Churn Rate](plot1_churn_rate.png)
+
+### 2. Churn by Contract Type
+![Contract Churn](plot2_contract_churn.png)
+
+### 3. Monthly Charges vs Tenure
+![Charges vs Tenure](plot3_charges_tenure.png)
+
+### 4. Churn by Payment Method
+![Payment Churn](plot4_payment_churn.png)
+
+### 5. High Risk Segment
+![High Risk Segment](plot5_highrisk_segment.png)
+
+### 6. Confusion Matrix
+![Confusion Matrix](plot6_confusion_matrix.png)
+
+### 7. Key Churn Drivers
+![Feature Importance](plot7_feature_importance.png)
+
+---
+
 ## Business Recommendations
 
 1. **Target month-to-month customers** with upgrade offers to annual contracts
-2. **Incentivise auto-pay setup** - electronic check users are low engagement and high churn risk
+2. **Incentivise auto-pay setup** — electronic check users are low engagement and high churn risk
 3. **Prioritise retention budget** on customers with tenure under 12 months and monthly charges above $65
-4. **Senior citizen segment** needs separate retention strategy - second highest churn driver
+4. **Senior citizen segment** needs separate retention strategy — second highest churn driver
 
 ---
 
@@ -42,4 +69,4 @@ IBM Telco Customer Churn — [Kaggle](https://www.kaggle.com/datasets/blastchar/
 ## Model Performance
 - Algorithm: Logistic Regression
 - Accuracy: 79%
-- Key limitation: 192 false positives - retention budget may be wasted on customers who were not going to churn
+- Key limitation: 192 false positives — retention budget may be wasted on customers who were not going to churn
