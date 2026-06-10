@@ -1,9 +1,6 @@
 # Telco-churn-analysis
 Exploratory data analysis and churn prediction model for a telecom company using SQL, Python and Logistic Regression. Identifies high-risk customer segments causing $52K/month revenue loss.
 # Telecom Customer Churn Analysis
-
-# Telecom Customer Churn Analysis
-
 ## Business Problem
 A telecom company is losing 26.5% of its customers every quarter. 
 This project identifies which customers are most likely to churn 
